@@ -142,7 +142,7 @@ footer a {
     background-color: #243A73;
 }
 .don_page_img{
-    height:700px;
+    height:650px;
     padding: 20px;
     float: right;
 }
@@ -152,7 +152,7 @@ footer a {
     font-family: 'Lobster', cursive;
     font-family: 'Stoke', serif;
     font-weight: 900;
-font-size: 38px; 
+font-size: 42px; 
 padding-left: 10px;
 color:#F2EBE9;
 
@@ -164,18 +164,18 @@ color:#F2EBE9;
     font-family: 'Joan', serif;
     font-family: 'Lobster', cursive;
     font-family: 'Stoke', serif;
-font-size: 50px; 
+font-size: 55px; 
 color: #ECB365;
 font-weight: 900;
 white-space: nowrap;
 }
 .second{
-    padding: 10px;
-    font-size: 28px;
+    padding: 2px;
+    font-size: 26px;
     font-family: 'Stoke', serif;
     color: #F2EBE9;
     font-family: 'Roboto Mono', monospace;
-    margin: 2%;
+    margin: 1%;
 }
 
 .razorpay-embed-btn{
