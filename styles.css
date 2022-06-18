@@ -1,0 +1,279 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    animation: transitionIn 0.75s;
+}
+@keyframes transitionIn {
+    from{
+        opacity:0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity:1;
+        transform: rotateX(0);
+    }
+}
+
+nav a img{
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+.navbar {
+    display: flex;
+    width: auto;
+    height: 56px;
+    background-color: rgba(0, 0, 0, 0.825);
+    overflow: hidden;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.home {
+    text-decoration: none;
+    padding: 10px 15px 0px;
+    text-align: center;
+    float: left;
+    width: auto;
+    height: auto;
+    white-space: pre;
+    font-size: 24px;
+    line-height: 1.1;
+    color: #A5BECC;
+    font-weight: 100;
+    font-family: "Inter-ThinItalic", "Inter", sans-serif;
+    background: linear-gradient(#243A73 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+    transition: 0.4s, background-position 0s;
+}
+.home:hover{
+    --p: 100%;
+    color: #fff;
+}
+
+/* Q{
+    
+    white-space:normal;
+    font: 65px sans-serif;
+    text-shadow: rgb(29, 20, 20) 2em;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border-width: 1px;
+    border-color: black;
+
+    transition: 0.3s; 
+    text-shadow: 0 0 10px rgb(0, 0, 6) ,
+                 0 0 20px  #243A73,
+                 0 0 40px  #243A73; 
+
+} */
+
+.title {
+    color: white;
+    border-color: #333;
+    font: 65px sans-serif;
+    text-shadow: 0 0 10px rgb(0, 0, 6) ,
+                 0 0 20px  #243A73,
+                 0 0 40px  #243A73; 
+    
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+.Quote{
+    background-color:#f2ebe996 ;
+    text-align: center;
+    font: 2em sans-serif;
+    padding: 48px;
+    color: #243A73;
+    font-weight: 600;
+}
+.button{
+
+    height: 70px;
+    width: 250px;
+    align-items: center;
+    text-decoration: solid;
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 42.5%;
+    border-radius: 10px;
+    background-color: #f45436;
+    /* background-color: rgb(250, 238, 17); */
+    color: rgb(255, 255, 255);
+    border-width: 0px;
+}
+
+.button:hover{
+ border-width: 2px;
+ border-color: #f45436;
+ background-color: rgb(255, 255, 255);
+ color: #f45436;
+ box-shadow: #333;
+ cursor: pointer;
+
+ transition: 0.3s;
+ box-shadow:  0 0 10px #f45436;}
+             
+
+/* .home:hover{
+    color: rgb(254, 103, 48);
+} */
+.logo:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.259),white);
+}
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(15, 14, 14, 0.74);
+    overflow: hidden;
+    display: flex;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+.abc:hover{
+    color: white;
+    background-color: #243A73;
+}
+.don_page_img{
+    height:700px;
+    padding: 20px;
+    float: right;
+}
+.first{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Joan', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Stoke', serif;
+    font-weight: 900;
+font-size: 38px; 
+padding-left: 10px;
+color:#F2EBE9;
+
+
+}
+
+.first1{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Joan', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Stoke', serif;
+font-size: 65px; 
+color: #ECB365;
+font-weight: 900;
+white-space: nowrap;
+}
+.second{
+    padding: 10px;
+    font-size: 28px;
+    font-family: 'Stoke', serif;
+    color: #F2EBE9;
+    font-family: 'Roboto Mono', monospace;
+    margin: 2%;
+}
+
+.razorpay-embed-btn{
+   margin-left: 9.5%;
+   height: 80px;
+   width: 240px;
+   font-weight: 700;
+   font-size: 36px;
+   border-radius: 8px;
+   border-color: white;
+  
+}
+.razorpay-embed-btn:hover{font-size: 38px;
+    color:#f45436;
+}
+hr{
+    size: 3;
+    display: block;
+    border-style: dotted none none;
+    width:5%;
+    border-color: rgb(175, 171, 171);
+    border-width: 10px;
+    margin-left: 15%;
+}
+section{
+    height: 100px;
+}
+.contacthead{
+    padding: 30px;
+    margin: 10px 0;
+    background-size: 200px;
+}
+.contacthead h2{
+    font-size: 44px;
+    color: #a1e7df;
+}
+.contacthead h4{
+    color: #d0b5ad;
+    padding: 15px;
+    font-weight: 200;
+}
+form{
+    padding: 30px;
+    margin: 10px 0;
+    height: 300px;
+}
+input[type=text]{
+    width: 360px;
+    height: 44px;
+    border-radius: 22px;
+    padding: 4px;
+    margin: 10px;
+    border: #f45436;
+}
+input[type=email]{
+    width: 360px;
+    height: 44px;
+    border-radius: 22px;
+    padding: 4px;
+    margin: 0 10px;
+    border: #f45436;
+}
+textarea{
+    width: 360px;
+    height: 104px;
+    border-radius: 22px;
+    padding: 4px;
+    margin: 10px;
+    border: #f45436;
+}
+input[type=submit]{
+    width: 360px;
+    height: 44px;
+    border-radius: 22px;
+    padding: 4px;
+    background-color: #243A73;
+    color:#F2EBE9 ;
+    border: #f45436;
+    font-size: 22px;
+}
+table{
+    border-spacing: 10px;
+}
